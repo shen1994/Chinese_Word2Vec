@@ -10,6 +10,6 @@
 
 ## 2. 操作流程  
 * 根据词频制作词典,产生dict.txt文件  
-python word_to_dict.py  
+`python word_to_dict.py`  
 * 根据词典把语料重新编码,产生translate.txt文件  
-python word_to_process.py  
+`python word_to_process.py`  
