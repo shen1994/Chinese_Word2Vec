@@ -1,0 +1,2 @@
+model_checkpoint_path: "Word2Vec.ckpt-100000"
+all_model_checkpoint_paths: "Word2Vec.ckpt-100000"
