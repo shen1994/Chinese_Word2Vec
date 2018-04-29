@@ -17,7 +17,7 @@
 `python train.py`  
 * 加载训练完成的模型,生成相近的10个或更多的词  
 `python match.py`  
-* 参数说明:words = match(match_word=u"找", dict_name="dict.txt",embed_vec=embed_vec, k=10)  
+* 参数说明: words = match(match_word=u"找", dict_name="dict.txt",embed_vec=embed_vec, k=10)  
 @params[in]: match_word--->带匹配的词  
 @params[in]: dict_name--->生成的字典文件  
 @params[in]: embed_vec--->根据模型生成,字典中所有词对应的128维向量  
