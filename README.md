@@ -15,8 +15,8 @@
 `python word_to_process.py`  
 * 训练样本,维度是128,大约在100000次loss趋于平缓  
 `python train.py`  
-* 加载训练完成的模型,生成相近的10个或更多的词  
-'python match.py'  
+* 加载训练完成的模型,生成相近的10个或更多的词  
+`python match.py`  
 * 参数说明:words = match(match_word=u"找", dict_name="dict.txt",embed_vec=embed_vec, k=10)  
 @params[in]: match_word--->带匹配的词  
 @params[in]: dict_name--->生成的字典文件  
